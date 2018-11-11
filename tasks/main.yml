@@ -4,5 +4,5 @@
   yum:
     name:
       - python-devel
-      - python-pip
+      - python2-pip
   become: yes

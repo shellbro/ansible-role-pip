@@ -16,7 +16,7 @@ None
 Dependencies
 ------------
 
-None
+* shellbro.epel
 
 Example Playbook
 ----------------
