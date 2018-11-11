@@ -1,0 +1,8 @@
+---
+
+- name: add pip
+  yum:
+    name:
+      - python-devel
+      - python-pip
+  become: yes
