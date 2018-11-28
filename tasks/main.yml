@@ -2,7 +2,5 @@
 
 - name: add pip
   yum:
-    name:
-      - python-devel
-      - python2-pip
+    name: python2-pip
   become: yes
