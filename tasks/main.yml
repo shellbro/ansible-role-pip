@@ -1,6 +1,9 @@
 ---
 
-- name: add pip
+- name: install pip and common requirements
   yum:
-    name: python2-pip
+    name:
+      - gcc
+      - python-devel
+      - python2-pip
   become: true
