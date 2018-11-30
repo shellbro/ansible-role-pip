@@ -5,7 +5,7 @@
     name: python2-pip
   become: true
 
-- name: upgrade pip to latest version
+- name: upgrade pip to newer version
   pip:
     name: pip
     version: 18.1
