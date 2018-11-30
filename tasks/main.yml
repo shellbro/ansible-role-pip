@@ -3,4 +3,10 @@
 - name: add pip
   yum:
     name: python2-pip
-  become: yes
+  become: true
+
+- name: upgrade pip to latest version
+  pip:
+    name: pip
+    version: 18.1
+  become: true

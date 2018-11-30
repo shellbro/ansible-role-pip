@@ -1,5 +1,7 @@
-pip
-===
+shellbro.pip
+============
+
+[![Build Status](https://travis-ci.org/shellbro/ansible-role-pip.svg?branch=master)](https://travis-ci.org/shellbro/ansible-role-pip)
 
 Ansible role for installing pip on CentOS 7.
 
